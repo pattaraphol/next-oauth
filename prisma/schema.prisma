@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model tb_timeAttendance {
+  id            Int       @id(map: "PK_tb_timeAttendance") @default(autoincrement())
+  StartDateTime DateTime?
+  EndedDateTime DateTime?
+  Status        String?   @db.NVarChar(200)
+  cmu_account   String    @db.NVarChar(200)
+}
+
+model tb_dailySurvey {
+  id            Int     @id(map: "PK_tb_dailySurvey") @default(autoincrement())
+  cmu_account   String? @db.NVarChar(200)
+  feeling       String? @db.NVarChar(200)
+  insert_date   DateTime?
+}

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.item-list {
+    width: 200px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 180px; /* สำหรับหน้าจอปกติ */
+  }
+  
+  @media (max-width: 600px) {
+    .responsive-image {
+      max-width: 100%; /* สำหรับหน้าจอขนาดเล็ก (มือถือ) */
+    }
+  }
+
+  .logo {
+    background-image: linear-gradient(90deg, oklch(var(--s)) 4%, 
+color-mix(in oklch, oklch(var(--s)), oklch(var(--er))) 22%, oklch(var(--p)) 45%, 
+color-mix(in oklch, oklch(var(--p)), oklch(var(--a))) 67%, oklch(var(--a)) 100.2%);
+    }
+
+
+    @keyframes slide-up {
+      from {
+        transform: translateY(50%);
+      }
+      to {
+        transform: translateY(0%);
+      }
+    }
+
+    .animate-slide-up {
+      animation: slide-up 1s ease-out;
+    }
+
+
+    /* custom.css */
+.fc .fc-button {
+  background-color: #FF842E; /* สีพื้นหลัง */
+  color: white; /* สีตัวอักษร */
+  border: none; /* ไม่มีเส้นขอบ */
+}
+
+.fc .fc-button:hover {
+  background-color: #FF842E; /* สีเมื่อเมาส์ชี้ */
+}
+
+.fc .fc-button:active {
+  background-color: #da6e21; /* สีเมื่อกด */
+}

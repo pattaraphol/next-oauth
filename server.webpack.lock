@@ -1,0 +1,6 @@
+{
+  "http://localhost:4000/uploads/videos/file-1720777974286.mp4": { "integrity": "sha512-yBaZoMrLAmDlg81atJ9KVON8iiizkBQu2fIA6E89ZD2IP6m6nBggZ/huA06pWWqok5RYKFLay+2tai85UKBQ0g==", "contentType": "video/mp4" },
+  "https://vacdn.tsyndicate.com/videos/5/6/10d8aed5f67d4340c0d4b45a115a4345b8c84e/440x250.mp4": { "resolved": "https://ip328847304.ahcdn.com/key=y0aflWk0Xl+VPpXl2upTPQ,s=,,end=1720892222/state=ZpKtMTEb/buffer=306189:11164,20.4/speed=43741/reftag=0345976730/ssd1/454/9/346082879/videos/5/6/10d8aed5f67d4340c0d4b45a115a4345b8c84e/440x250.mp4", "integrity": "sha512-d14piodBVp7qS4gp2joQuAerMyeUhLfF14p75i4YmYjEPllG5d1dAsG2yMOfXFgNYW+H9CGbslqgGmY/sqHakQ==", "contentType": "video/mp4" },
+  "https://www.mydomain.com/remote-video.mp4": { "resolved": "https://www.web.com/mydomain?brand=mydomain&channelID=P99C101S653N0B2A16D132E0000V147", "integrity": "sha512-32kNn7RsviGeeGj3dN42WarkuOsEgmmigNhpfbjNnWA4Gyzt7rjLpe++ro2V0J+XkhajuotmKAslR8Hxw1rSXw==", "contentType": "text/html;charset=utf-8" },
+  "version": 1
+}
